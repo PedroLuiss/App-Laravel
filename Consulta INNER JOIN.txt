@@ -1,0 +1,6 @@
+consulta SQL INNER JOIN Tablas: orders,orders_detail,users
+
+SELECT orders.fecha,orders.number_orden,orders.monto,orders.estado,orders_detail.articulo,
+orders_detail.cantidad,orders_detail.precio,orders_detail.total, users.name,
+users.apellido FROM orders INNER JOIN orders_detail ON orders.id_detalle = orders_detail.id 
+INNER JOIN users ON users.id = orders.id_usuario;
