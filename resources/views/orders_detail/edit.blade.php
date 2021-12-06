@@ -59,7 +59,7 @@
         <div class="card-footer">
             <div class="row"> 
                 <div class="form-group col-md-6">
-                    <button type="submit" class="btn btn-primary">Registrar</button>
+                    <button type="submit" class="btn btn-primary">Actualizar</button>
                     <a  href="{{ url('orders_detail') }}" class="btn btn-danger">Cancelar</a>
                 </div>                
             </div>
